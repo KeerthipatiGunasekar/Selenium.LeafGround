@@ -31,7 +31,6 @@ public class Xpath
 	public static String selectCity = "//label[text()='Select City']";
 	public static String selectTooloption = "//option[text()='Selenium']";
 	
-//	xpath related to checkbox
 	public static String basicCheck = "//span[text()='Basic']";
 	public static String notificationCheck = "//span[text()='Ajax']";
 	public static String CheckBoxCheck = "//div[@id='j_idt87:j_idt91']";
