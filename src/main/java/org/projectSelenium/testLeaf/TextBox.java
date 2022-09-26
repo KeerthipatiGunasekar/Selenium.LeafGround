@@ -17,6 +17,6 @@ public class TextBox
 		textBox.typeInTextBox(Xpath.emailTab, "TAB");
 		Thread.sleep(3000);
 		textBox.errorMessage();
-		textBox.selectDropdown("Selective");
+		textBox.selectDropdown("Randomselect");
 	}
 }
