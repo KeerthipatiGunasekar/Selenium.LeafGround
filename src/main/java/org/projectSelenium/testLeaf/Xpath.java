@@ -1,5 +1,4 @@
 package org.projectSelenium.testLeaf;
-
 public class Xpath
 {
 	//xpath related to TextBox
@@ -50,12 +49,7 @@ public class Xpath
 	public static String randomcellStatus = "//td[contains(text(),'{variable}')]/following-sibling::td[4]";
 	public static String nameClicking = "(//span[text()='Name'])[1]";
 	
-//	Xpath related to Grid
 	public static String selectnameGrid = "(//td[text()='{variable}']/preceding-sibling::td)[2]";
 	public static String selectallGrid = "//td[text()='{variable}']/parent::tr/following::tr[1]/child::td//descendant::div[3]//descendant::tbody/tr";
 	public static String selectallCells = "./td";
-	
 }
-	
-
-
