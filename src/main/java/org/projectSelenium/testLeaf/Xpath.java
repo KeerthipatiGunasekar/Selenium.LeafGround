@@ -55,6 +55,9 @@ public class Xpath
 	public static String selectallGrid = "//td[text()='{variable}']/parent::tr/following::tr[1]/child::td//descendant::div[3]//descendant::tbody/tr";
 	public static String selectallCells = "./td";
 	
+//	Xpath related to Dynamic Table
+	public static String getTitles = "//thead//th/span[1]";
+	public static String selectRandomCell = "//td[contains(text(),'{variable}')]/following-sibling::td[variable1]";
 }
 	
 

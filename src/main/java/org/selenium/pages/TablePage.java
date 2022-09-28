@@ -1,7 +1,6 @@
 package org.selenium.pages;
 
 import java.util.List;
-
 import org.openqa.selenium.WebElement;
 import org.projectSelenium.testLeaf.BaseMainClass;
 import org.projectSelenium.testLeaf.Xpath;
