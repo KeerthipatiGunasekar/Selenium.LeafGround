@@ -1,10 +1,6 @@
 package org.selenium.leafground;
 
-import java.awt.Color;
-import java.awt.Point;
 import java.util.List;
-import java.util.Scanner;
-import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -16,9 +12,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class Leafground 
 {
-//	private static final Boolean JavascriptExecutor = null;
 	static WebDriver driver;
-//	Scanner scan = new Scanner(System.in);
 	public static void main(String[] args) throws InterruptedException 
 	{
         System.setProperty("webdriver.chrome.driver","chromedriver.exe");
