@@ -29,5 +29,4 @@ public class WaitsPage extends BaseMainClass {
 		Boolean textChange = waiting.until(ExpectedConditions.textToBePresentInElementLocated(By.xpath("//span[text()='Did you notice?']"), "Did you notice?"));
 		System.out.println(textChange);
 	}
-
 }
