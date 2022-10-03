@@ -15,16 +15,13 @@ public class Dynamic_TablePage extends BaseMainClass {
 	}
 	public void printDynamicTable(String name, String column)
     {
-		//td[contains(text(),'David S')]/following-sibling::td[]
 		List<WebElement> findElements = xpaths(Xpath.getTitles);
 		List<String> list = new ArrayList<String>();
 		for (int i = 0; i < findElements.size(); i++) {
 			list.add(findElements.get(i).getText());
 		}
-		
 		String Xpath = "//td[contains(text(),'"+name+"')]/following-sibling::td["+Integer.toString(list.indexOf(column))+"]";
 		String status = driver.findElement(By.xpath(Xpath)).getText();
 		System.out.println(status);
     }
-	
 }
