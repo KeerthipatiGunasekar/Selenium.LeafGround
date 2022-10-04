@@ -16,7 +16,6 @@ public class WaitsPage extends BaseMainClass {
 		driver.findElement(By.xpath("(//span[text()='Click'])[1]")).click();
 		WebElement visible=waiting.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='I am here']")));
 		System.out.println(visible.getText());
-
 	}
 	public void invisibility()
 	{
@@ -24,7 +23,8 @@ public class WaitsPage extends BaseMainClass {
 		boolean invisible=waiting.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//span[text()='I am about to hide']")));
 		System.out.println(invisible);
 	}
-	public void textChange() {
+	public void textChange() 
+	{
 		driver.findElement(By.xpath("(//span[text()='Click'])[3]")).click();
 		Boolean textChange = waiting.until(ExpectedConditions.textToBePresentInElementLocated(By.xpath("//span[text()='Did you notice?']"), "Did you notice?"));
 		System.out.println(textChange);
